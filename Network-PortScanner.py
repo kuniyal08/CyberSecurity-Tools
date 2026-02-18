@@ -9,7 +9,7 @@ from datetime import datetime
 if len(sys.argv) == 2:
     target = socket.gethostbyname(sys.argv[1])
 else:
-    print("Invalid amount of arguments.")
+    print("Invalid amount of arguments. ")
     print("Syntax: python3 Network-PortScanner.py <ip>")
     sys.exit()
 
